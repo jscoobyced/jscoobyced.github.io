@@ -10,11 +10,9 @@ echo "deb https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.lis
 sudo apt update
         </pre>
         <br />You might need to delete old key and repository first.
-        <br />
 <pre>
 sudo rm /etc/apt/sources.list.d/jscoobyced-dev.list
 sudo rm /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg
 <pre>
-
         <h2>List of packages:</h2>
         <table>
