@@ -25,9 +25,12 @@ check_package dpkg-sig
 cat ../index.html.tpl > ../index.html
 
 HAVEPKG=$(ls -l amd64/ | grep -v "total ")
+HAVEPKG=${HAVEPKG}$(ls -l ../base/ | grep ".deb")
+
 if [ "" != "${HAVEPKG}" ]; then
   echo "Signing packages."
-  dpkg-sig -k ${GPGKEYID} --sign builder amd64/*.deb
+  dpkg-sig -k ${GPGKEYID} --sign builder ../base/*.deb
+  mv ../base/*.deb ./amd64/
 
   echo "Creating new meta-data."
   apt-ftparchive packages amd64 > Packages

@@ -11,7 +11,7 @@ chmod u+x ./scripts/*.sh
 ```
 This will intialize your GPG keys. You should see the new `repo` directory,
  a `KEY.gpg` file and an `amd64` directory in it.
-- Copy your `.deb` packages in the `repo/amd64` directory
+- Copy your `.deb` packages in the `base` directory
 - In the terminal, type
 ```
 ./scripts/update-packages.sh
