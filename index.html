@@ -13,7 +13,7 @@ sudo apt update
 <pre>
 sudo rm /etc/apt/sources.list.d/jscoobyced-dev.list
 sudo rm /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg
-<pre>
+</pre>
 <br />You can browse the <a href='https://jscoobyced.github.io/repo/'>repository</a>.
         <h2>List of packages:</h2>
         <table>
