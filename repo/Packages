@@ -1,0 +1,16 @@
+Package: jscoobyced-dep
+Architecture: all
+Version: 1.0-0
+Priority: optional
+Section: base
+Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Depends: openjdk-11-jdk (>= 11.0.0)
+Filename: amd64/jscoobyced-dep_1.0-0.deb
+Size: 2268
+MD5sum: 28622c0dcf54c2fca2c8954428ca8725
+SHA1: ddbea213d650e1b4df0b0a5d85781286c9068b8a
+SHA256: 36a6dfa0f201df2f956b637324a560ed89871f5db8dbdfbbfd91b66db7464469
+SHA512: 8f58f66d95f60a699de52530d9f43853242bed04d1bc82e9fe243ff958e1468ef91faeb2b1ab51019df9576b4e661a82dad7d9e4e228e1e0051416f1e75aebe3
+Description: This is a meta-package with the dependencies I usually install on a new machine
+ Enjoy and feel free to modify it!
+
