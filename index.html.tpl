@@ -12,4 +12,3 @@ sudo apt update
         <br />You might need to delete old key and repository first. Check <a href='https://jscoobyced.github.io' target='_blank'>here</a> for more details.
         <h2>List of packages:</h2>
         <table>
-</table></body></html>
