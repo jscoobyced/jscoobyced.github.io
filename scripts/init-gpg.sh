@@ -58,5 +58,5 @@ gpg --no-default-keyring --list-secret-keys
 GPGKEYID=$(gpg --no-tty --list-secret-keys --with-colons 2>/dev/null | awk -F: '/^sec:/ { print $5 }')
 
 echo "Exporting key."
-mkdir -p repo
+mkdir -p repo/amd64
 gpg --output repo/KEY.gpg --armor --export ${GPGKEYID}

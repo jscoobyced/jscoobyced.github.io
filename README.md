@@ -1,31 +1,21 @@
 # JScoobyCed .deb packages repository
 
-## How to add this repository
-
-Removing old version:
+This repository includes all the custom `.deb` debian packages I often use. If
+ you want to create your own Debian repository you can copy this repo and
+ follow these 5 steps:
+- delete the `repo` directory (it will be automatically re-created later)
+- open a terminal and type:
 ```
-sudo rm /etc/apt/sources.list.d/jscoobyced-dev.list
-sudo rm /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg
+chmod u+x ./scripts/*.sh
+./scripts/init-gpg.sh
 ```
-
-Adding the new one:
+This will intialize your GPG keys. You should see the new `repo` directory,
+ a `KEY.gpg` file and an `amd64` directory in it.
+- Copy your `.deb` packages in the `repo/amd64` directory
+- In the terminal, type
 ```
-wget -qO - https://jscoobyced.github.io/repo/KEY.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg add -
-echo "deb https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
-sudo apt update
+./scripts/update-packages.sh
 ```
-
-If you get an error like
-```
-The following signatures couldn't be verified because the public key is not available: NO_PUBKEY XXXXXXXXXXX
-```
-you can resolve by doing this:
-```
-gpg --export --armor XXXXXXXXXXX | sudo apt-key add -
-```
-
-The reason is I didn't publish a signing server, so you need to tell your keystore to trust my key.
-
-## List of packages
-
-No package available yet. Coming very soon.
+This will sign your packages and create all necessary Debian files.
+- Publish the `repo` folder on a web-server available from the machines you
+ want to use these packages.
