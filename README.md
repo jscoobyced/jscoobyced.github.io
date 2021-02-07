@@ -10,8 +10,8 @@ sudo rm /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg
 
 Adding the new one:
 ```
-wget -qO - https://jscoobyced.github.io/KEY.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg add -
-echo "deb https://jscoobyced.github.io/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
+wget -qO - https://jscoobyced.github.io/repo/KEY.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/jscoobyced-deb.gpg add -
+echo "deb https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
 sudo apt update
 ```
 
