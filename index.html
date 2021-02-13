@@ -5,7 +5,7 @@
         On a terminal run the following commands:
 <pre>
 wget -qO - https://jscoobyced.github.io/repo/KEY.gpg | gpg --dearmor | tee /usr/share/keyrings/jscoobyced-deb.gpg > /dev/null
-echo "deb https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/jscoobyced-deb.gpg] https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
 sudo apt update
 </pre>
         You might need to delete old key and repository first.
@@ -24,5 +24,5 @@ gpg --export --armor XXXXXXXXXXX | sudo apt-key add -
 
         <h2>List of packages:</h2>
         <table>
-<tr><td><a href="./repo/amd64/jscoobyced-dep_1.0-9.deb">./repo/amd64/jscoobyced-dep_1.0-9.deb</td><td>2.9K</td><td>Feb13 21:18</td></tr>
+<tr><td><a href="./repo/amd64/jscoobyced-dep_1.0-10.deb">./repo/amd64/jscoobyced-dep_1.0-10.deb</td><td>3.0K</td><td>Feb13 21:26</td></tr>
 </table></body></html>
