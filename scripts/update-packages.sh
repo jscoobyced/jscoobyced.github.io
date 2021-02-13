@@ -39,7 +39,7 @@ if [ "" != "${HAVEPKG}" ]; then
   gpg --default-key ${GPGKEYID} -abs -o Release.gpg Release
   gpg --default-key ${GPGKEYID} --clearsign -o InRelease Release
 
-  PACKAGES=$(find . -name "*.deb" | xargs ls -ctgGh | awk '{if(NF==7) print "<tr><td><a href=\""$7"\">"$7"</td><td>"$3"</td><td>"$4 $5"\t"$6"</td></tr>\r\n"}')
+  PACKAGES=$(cd ..;find . -name "*.deb" | xargs ls -ctgGh | awk '{if(NF==7) print "<tr><td><a href=\""$7"\">"$7"</td><td>"$3"</td><td>"$4 $5"\t"$6"</td></tr>\r\n"}')
   echo $PACKAGES >> ../index.html
 fi
 
