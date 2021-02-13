@@ -4,7 +4,7 @@
         <h2>How to add this repository</h2>
         On a terminal run the following commands:
 <pre>
-wget -qO - https://jscoobyced.github.io/repo/KEY.gpg | gpg --dearmor | tee /usr/share/keyrings/jscoobyced-deb.gpg > /dev/null
+wget -qO - https://jscoobyced.github.io/repo/KEY.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/jscoobyced-deb.gpg > /dev/null
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/jscoobyced-deb.gpg] https://jscoobyced.github.io/repo/ ./" | sudo tee /etc/apt/sources.list.d/jscoobyced-dev.list
 sudo apt update
 </pre>
