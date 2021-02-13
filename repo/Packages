@@ -1,30 +1,15 @@
 Package: jscoobyced-dep-ui
 Architecture: all
-Version: 1.0-1
+Version: 1.0-2
 Priority: optional
 Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: kazam (>= 1.4.5)
-Filename: amd64/jscoobyced-dep-ui_1.0-1.deb
-Size: 2892
-MD5sum: cb270b11a854230b0dc6d9652159263d
-SHA1: 49245c88af832cc67ac31fb19d7957e2a34b9e52
-SHA256: 1f0e82b443f8dc1c46e33a7bfae078a0dd13e15d8e127e7bfc2434a95a248435
-SHA512: 8e365bc8df2b1e5e337b394be096ee2ba57ea9b7d743d17a0513e51f5a0be9223016145089e3b0da699a1b07964e91c980f2e065586d4f93a7c948ede6bd79be
+Depends: jscoobyced-dep, kazam (>= 1.4.5)
+Filename: amd64/jscoobyced-dep-ui_1.0-2.deb
+Size: 2896
+MD5sum: bbdb6270fedb3ffd08f99b375716cd37
+SHA1: 1eb0916d6909233c18d7c2b836123d9f478a08a0
+SHA256: 4817a86f2b5b42bf9bc3689ff6165874d4e70ca2007150d56baba4cd551e10ea
+SHA512: be8ccf64f58f5358f39df1324f2691d7304b99e212e1f693f0130a9ea20cb684b36dcc4b047d5c5be1147d411ee3bd423cc79d4477d55c291a12292b99ef6609
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
-
-Package: jscoobyced-dep
-Architecture: all
-Version: 1.0-10
-Priority: optional
-Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: openjdk-11-jdk (>= 11.0.0), openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
-Filename: amd64/jscoobyced-dep_1.0-10.deb
-Size: 2960
-MD5sum: a1cf5e5707e0e9679eeb12f7aa5a96ee
-SHA1: 4a30a84cb0dbf6298a760196ff6673195b398f08
-SHA256: a9ff7ffd70e98d7e50791de0c20580a29eaec007726eedc498e3362630ad8e90
-SHA512: dab111bcfd04f609d672fc1e4651731b817b4557db82d9baa9183e32a099dd8ee799af788cced0593de4bdc1127b280e52abed4679a4d8b3c4d9200f99e1d3cf
-Description: This is a meta-package with the dependencies I usually install on a new machine
 
