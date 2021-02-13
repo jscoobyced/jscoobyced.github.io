@@ -1,15 +1,15 @@
 Package: jscoobyced-dep
 Architecture: all
-Version: 1.0-5
+Version: 1.0-6
 Priority: optional
 Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openjdk-11-jdk (>= 11.0.0), kazam (>= 1.4.5), openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales
-Filename: amd64/jscoobyced-dep_1.0-5.deb
-Size: 2956
-MD5sum: 59bccde8399513376dfaf65267e5e021
-SHA1: 0238a54395f9cd180fefffccd5e8852f4f2fb7b0
-SHA256: 959382a6e5f7b29e2b2f02be03f58b9eaaad08800e3ee30ed41affaf009b3f7d
-SHA512: 662de27039b67fd5cdf8240fc70d1ecb8bd68a96402a67e838a6ed3c2b7ec5f8a985f095337d2da3aab8afa02fa76c5278f55784f71cb88ca12aef3efb713998
+Filename: amd64/jscoobyced-dep_1.0-6.deb
+Size: 2960
+MD5sum: 4e5b107f86f53933a13d2e8c8b527577
+SHA1: db77bc2d6bc84ae373687afbb7babf9c4cdf8387
+SHA256: 8d22bf674aafcfdaf448c19baacd3c8f70e244f720bf3afecd042c52324266b2
+SHA512: a5f636677885448c5b43c1e0513a516dd5020f8db6a8ff322626cf53478bc07e7166b9311b05087f6815fd16fa850956dd381f4fb5b6120896d71f15fa3e4c55
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
