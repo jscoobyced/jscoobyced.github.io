@@ -28,3 +28,18 @@ SHA256: a850d74826b75477959dce59f2d96cdd92435c55c8837257d83991ca355bca1c
 SHA512: ef1d85bc917924741ec0b8002edd0bd9041156941f95ca829af7e85e2bd414e1dcc5f1d21e6eb98c1821346f737d32e0dc7246d1a3bbc28455c4a4651e2ec3d2
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
+Package: libpango1.0-0
+Architecture: all
+Version: 1.36-5
+Priority: optional
+Section: base
+Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Depends: sh
+Filename: amd64/libpango1.0-0_1.36-5.deb
+Size: 2188
+MD5sum: e552114c08917b3ea4e0cf077f401294
+SHA1: a3d1e6294f857b1a3307d92ff2f84a598ec3e55a
+SHA256: c4dca08f3421740fb358daf99634b7b4d7488d856dd302b42596dc13ee03aca2
+SHA512: 6edd97165e67e5686262b13ef2dd5bdc071ac7427f6b64ce004f59351d41f5419f0ba4a73cb74b9dd21a603b49652867d7cc627910af978bb9caee5d6584619d
+Description: Fake package to install Dropbox
+
