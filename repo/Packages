@@ -1,47 +1,17 @@
 Package: jscoobyced-dep-dev
 Architecture: all
-Version: 1.0-4
-Priority: optional
-Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: jscoobyced-dep, openjdk-11-jdk (>= 11.0.0), git
-Filename: amd64/jscoobyced-dep-dev_1.0-4.deb
-Size: 3096
-MD5sum: 2a800780eeebfecbb695098a9d642029
-SHA1: f4ad51abb81dbc045aa594f6417bdd424b378e67
-SHA256: ef65bb13e371d6932de1f4203593dcb7160506070934e1487ca3a5c73cacc5ae
-SHA512: 262e4154336ea266fc234de1255e4f8e8742d93f1d7c331856d28c0427069b51fc7497c1e32741dd2bac2dbe21c1b38fb3d287e9cef45d0e571d22b0d96ab7de
-Description: This is a meta-package with the development dependencies I usually install on a new machine
-
-Package: jscoobyced-dep-dev
-Architecture: all
 Version: 1.0-5
 Priority: optional
 Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, openjdk-11-jdk (>= 11.0.0), git
 Filename: amd64/jscoobyced-dep-dev_1.0-5.deb
-Size: 3096
-MD5sum: 139805cccee7d713692c48dd4d75cc55
-SHA1: 4433d88828397835122102072fcbac021925c0e4
-SHA256: 6a192768f54de1daac22f390c5f84627b853c30530057b13ebb0213204e07573
-SHA512: ba81c56c3e097f8457951d7a045694c5018ede56d43ce3b99da963300cb9c78369ea13dc0fcd371d8eb80d8d6293aeadf106697bcc04f49a9ca44a37cc1bb66d
+Size: 3112
+MD5sum: def9ae31f48a0e8145d79d07218a58b0
+SHA1: 6586f3debd3255a31fd5f84cfd210f6a9c55bc4a
+SHA256: 4ede6cc31562716ba1ea04b5d9c4186cc770c8889561e8267ba48f73c1bed049
+SHA512: 23c455ff2dc1db8c291299ceec88f99d1ebccdd51913b34d37cd9d35972ed4d641bfaa8f96aa4d0492423267ef57971b4d1755b68ed6622666f8d4ce804b9f43
 Description: This is a meta-package with the development dependencies I usually install on a new machine
-
-Package: jscoobyced-dep-ui
-Architecture: all
-Version: 1.0-4
-Priority: optional
-Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: jscoobyced-dep, kazam (>= 1.4.5)
-Filename: amd64/jscoobyced-dep-ui_1.0-4.deb
-Size: 2672
-MD5sum: 9a9acc99cf659b92b5f2debcab55c7a7
-SHA1: 3202e695b0ded93adfcb81326d1adb189cbf3116
-SHA256: 05b80777ab682a91803fb300a016107695b6a4764773720ac116102866a0b920
-SHA512: 180512df098a4787319708094b2c54abf7c06cb853bb9693a79f4430b3f5b9147b43307d6458e8faa61bb51bb4548695d140edf5f6a285e018cbc53232db72e5
-Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep-ui
 Architecture: all
@@ -51,11 +21,11 @@ Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, kazam (>= 1.4.5)
 Filename: amd64/jscoobyced-dep-ui_1.0-5.deb
-Size: 2668
-MD5sum: c975ad9be893a8fbc961b4390ab93be4
-SHA1: 976dee1fa6af6b2606726a88ef5e752b2abd103f
-SHA256: 3a68d4adf5bc0f2594a42089862e62db194a56434921431be8f7e4015fd4f911
-SHA512: 0a947b5005b0a0c7d00aa8d7dfddf61c94c1cfd6806af75e29fe4064122b7ddbe32121ef2ee2fd48d05392cea0bf36e43eb80d901b9ea79d74b9563290860f67
+Size: 2680
+MD5sum: 98d70120ed56e3d99b157bfcd706ff76
+SHA1: 167567e9588a0866164b3720010e2a54f1f3eb72
+SHA256: 52525cf63182183db204a8b51fc57873cf81a9003d2c33920d38d6e931a6c229
+SHA512: 7b4464e13cf42d92e9a35cd5a1f0eae3badad18f398aa09dd1ada07805aacb5d3c533e430fffaf5902431a355329abc14b2d84cc210bd3fe7fe2e2eea2fe6895
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
@@ -67,10 +37,10 @@ Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
 Filename: amd64/jscoobyced-dep_1.0-13.deb
 Size: 2864
-MD5sum: 9fdcc7059cad3b67faeea6c7041b8dd6
-SHA1: 22b46432ff8be70ea0da22c4c989e92bc636a775
-SHA256: 3745a97872e202a5b6e04807743df6ff6cb2ab11041049f1dadc3e65ab83a449
-SHA512: d498bf015ccfe9efb97b38000301fcb4392b49475b4aab28651046396ee6e1d8b01e81d757f05c6cfc4619d9ee9f827e58946e090b2d6277049dc1834ab07c01
+MD5sum: 53a37c4293c8db0979b31f0fc17ca562
+SHA1: 51b3eff1a04819515694a2107645fad504e686ea
+SHA256: 28eb1fef3c49efab195e6e1a497f863636c3ed065770d691c11d93eb80189387
+SHA512: 36fb9605f2a4a88220ff49f82b71a078f0291150dca5b1f0e34e7801b68caf9b8d54d5fc987997a7f4c6acf3a2813d6841be5947f01d33e7675bcc7bdab56172
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
 Package: libpango1.0-0
