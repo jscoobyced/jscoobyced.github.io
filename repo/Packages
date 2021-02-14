@@ -1,3 +1,18 @@
+Package: jscoobyced-dep-dev
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: base
+Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Depends: openjdk-11-jdk (>= 11.0.0), git
+Filename: amd64/jscoobyced-dep-dev_1.0-1.deb
+Size: 2732
+MD5sum: a0e9520b033ea19223df07313433628d
+SHA1: 2803a07b117b2c85ba1c76f5a334939ff388a3ec
+SHA256: 95d0ae491ca7a8ae88a6e97ef6be34c93686840753cc389ca1f569fafb81191a
+SHA512: a7eb94eb203c437c127f1675ad6291b02833902d7c260eed2cc7afbe2e94f8b9d9e3c7c5b8828ad266b863282f959241222a57283aca426318befa13a60301be
+Description: This is a meta-package with the development dependencies I usually install on a new machine
+
 Package: jscoobyced-dep-ui
 Architecture: all
 Version: 1.0-2
@@ -6,12 +21,27 @@ Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, kazam (>= 1.4.5)
 Filename: amd64/jscoobyced-dep-ui_1.0-2.deb
-Size: 2896
-MD5sum: aaf461ed5c0e175b844cd770d03a68b8
-SHA1: dc47e32a67e270ab73d33f3f41db5b7234ebf40b
-SHA256: 86e0362de70719293b74492f1af16f6f5ea38264662555eec6ca182ae7bf1121
-SHA512: 5700e37ceaf6388cea5b04e3ea0628bb76466540855e6c852e0b540e2348cd5fef06ea46225087c73dea8b2889646d492d8731b7b3885e7e59aea0d18bd6daa9
+Size: 2340
+MD5sum: b3f754465cccc6bc0d41292a4d1a0a14
+SHA1: 371d18d35251353de8e83471e62e70a5322604bb
+SHA256: 6480e36603949ecaae952e8dcd22b59a1ae033960672c6ac91cf50379bd5664b
+SHA512: 534739f6279af6449af5de83b5845d4fc67f78aaa3f9f0bb196bf9e361c3f92587cc60bee0080515177878a36d7ffa50861bdaed8a64a94e60b33b29a9bfd433
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
+
+Package: jscoobyced-dep
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: base
+Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Depends: openjdk-11-jdk (>= 11.0.0), git
+Filename: amd64/jscoobyced-dep_1.0-1.deb
+Size: 2720
+MD5sum: 447168be4cf31a03ea9ede17d9134566
+SHA1: 7e93b8b40f6990ff9a8e7b8ac6a584c097c6b0b9
+SHA256: ddeff50e18c1ebb6d58f065e4f645fd6f586467c655ad1403265b6346e23dc80
+SHA512: cb331b0f3a635f29bd2961848bedf3999e464359f26889a4a5fb7cc74501c4512d84ca18b9ed7152511293ef690046cec3a4ae0798334f7cfab89f4048458974
+Description: This is a meta-package with the dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
 Architecture: all
@@ -19,13 +49,13 @@ Version: 1.0-10
 Priority: optional
 Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: openjdk-11-jdk (>= 11.0.0), openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
+Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
 Filename: amd64/jscoobyced-dep_1.0-10.deb
-Size: 2956
-MD5sum: a06dc812cf059b70ca9bad6402558b3b
-SHA1: 8ae76e64d9d3d559103f2c0308ea321eef5a54a8
-SHA256: a850d74826b75477959dce59f2d96cdd92435c55c8837257d83991ca355bca1c
-SHA512: ef1d85bc917924741ec0b8002edd0bd9041156941f95ca829af7e85e2bd414e1dcc5f1d21e6eb98c1821346f737d32e0dc7246d1a3bbc28455c4a4651e2ec3d2
+Size: 2648
+MD5sum: a6b407c2e6bdfc55fece7e35459cb126
+SHA1: b4d7cafe72e1e68ed24d5054aa52c1c029598e4a
+SHA256: ffa60aaa84c4ccc27af6d3f07c56cd71cab1941906791abb39aa063834526dfd
+SHA512: 437bc27d8610e3c66f3825ef461e43b5354ebacc0f25d650f4c34eea4894f674144705e5fa2fba41244518135ad791f8eaec8179daae0ac990a297e603a9b285
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
 Package: libpango1.0-0
