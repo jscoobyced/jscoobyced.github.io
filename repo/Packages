@@ -6,26 +6,26 @@ Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, openjdk-11-jdk (>= 11.0.0), git, gcc, make, build-essential
 Filename: amd64/jscoobyced-dep-dev_1.0-7.deb
-Size: 3152
-MD5sum: e1ae62da6f3e7d102d3b61b2ff0c1128
-SHA1: 908ce8bc6d4a683bfa437eee0910a0ee7e74d197
-SHA256: bcb4c40ba6e3d138bd781ef542598dbf2a6b28f9ff746affab84856fde8a2195
-SHA512: cc44515c579e108611fbe7b7b28e5cbe4757441e7f076f23e72a05a29386da21b3b3a226a3c8699cb9ba13a0a451d8231774d6a76ff4a71e389f3b47520957d3
+Size: 3148
+MD5sum: 55b8792c1a5d2503d26c39f696212a05
+SHA1: 9d879e582735b8c4f96b993e00d6254a13de5559
+SHA256: 558f3886b94fc7eb5a272d7ffd222cc2a6ee79302ef0fbf97756b22be5325c4f
+SHA512: 7e5e21fb92ec943e75ac60f758ac48f0ff3b1c250c4044d6d0ce1b4f729dfcb158479412cbe8b47a8eae09c15916794d65998d7c3bcc3d020c3b5826684a7e17
 Description: This is a meta-package with the development dependencies I usually install on a new machine
 
 Package: jscoobyced-dep-ui
 Architecture: all
-Version: 1.0-7
+Version: 1.0-9
 Priority: optional
 Section: base
 Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, kazam (>= 1.4.5), vlc, ffmpeg, imagemagick, xclip
-Filename: amd64/jscoobyced-dep-ui_1.0-7.deb
-Size: 3028
-MD5sum: b62242d9d13b40d99a2c1829b539f9e2
-SHA1: 89c35af58e9f544f1f38770baba29b09b569721b
-SHA256: 6bff780f77e8be163c9ce322870dab25dd84c3553e01ff9e9ae6df5bef6fc253
-SHA512: b909638611d585b756d94ac679c798192ef13879e528fd7384ddd9be3c05b631c063774a0061854b23fa4a72c3961374890a06f1ec32d9ee325a115840e68829
+Filename: amd64/jscoobyced-dep-ui_1.0-9.deb
+Size: 3036
+MD5sum: 51613df3b8048eb92e54155456267245
+SHA1: ef77ac50c6c737fb1d22fcc0d1a7d6a2bbbb6b50
+SHA256: 89271ab85511b48ef8a547af94d0f6362fc886b0f8e6c0ba9d72543bb17fabc2
+SHA512: ee6bd817a6f09cbb756d222064daad10b0f64d81dd4e05603bb6f4889dec3b15a63386296d9a0a51fff9cf10d2ea24d129638ce46a9e30a82c30f3894d403dbf
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
@@ -37,10 +37,10 @@ Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
 Filename: amd64/jscoobyced-dep_1.0-14.deb
 Size: 2888
-MD5sum: 7a73d4b081c8776a34189ae8078098d2
-SHA1: bffa517e0dcacd0a0e07d95d2ecf3bdd2b763b5e
-SHA256: a5f7cc162d083654da46f8cd6d58d5d193b35f2ef87a09f151b8bfb631712df2
-SHA512: 557cca207b5d0436da6c2745fc1635f3f9d9ec10bac07910011a62c8f32e6f5adbce270b439db82779313963b47b2fcd6e9e23430444ca0115b9351035a981f5
+MD5sum: 9dc9ca662c1e95bea1f8f29b10443be2
+SHA1: 89c142150370c4eda78a9c8c3ad265deac23ec15
+SHA256: dece29a2d51c941bdebac47b599fe958d151547c3b811298b75e9fd83166fd37
+SHA512: 68d1dc7266174e2a48a207020bb6e4ca183ad78602bf52614fb43a0d5b7f543ab7f0acd4817db6629aa2892f68a4824a0ee94865734446f91c48de6148392d79
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
 Package: libpango1.0-0
