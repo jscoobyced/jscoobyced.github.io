@@ -1,60 +1,45 @@
 Package: jscoobyced-dep-dev
 Architecture: all
-Version: 1.0-7
+Version: 1.0-8
 Priority: optional
 Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, openjdk-11-jdk (>= 11.0.0), git, gcc, make, build-essential
-Filename: amd64/jscoobyced-dep-dev_1.0-7.deb
-Size: 3148
-MD5sum: 55b8792c1a5d2503d26c39f696212a05
-SHA1: 9d879e582735b8c4f96b993e00d6254a13de5559
-SHA256: 558f3886b94fc7eb5a272d7ffd222cc2a6ee79302ef0fbf97756b22be5325c4f
-SHA512: 7e5e21fb92ec943e75ac60f758ac48f0ff3b1c250c4044d6d0ce1b4f729dfcb158479412cbe8b47a8eae09c15916794d65998d7c3bcc3d020c3b5826684a7e17
+Filename: amd64/jscoobyced-dep-dev_1.0-8.deb
+Size: 3172
+MD5sum: 3aee22d9564f7041dae27902b4c4ccd9
+SHA1: 1ae8655e815090cac184a71f5fd946512788ec34
+SHA256: 6f4a8789f1bcc30c48d2d8a832aa4915113d1363a32f4fffe0fdace03f96a203
+SHA512: e6e665351ce930ca79a9582937a5c63b6f1f4dd94af94fe79014fe1d6f0983633fd9a49cc5add27d0e90f0a8ab3103ccacf528bd9786bb06628537d78be145b4
 Description: This is a meta-package with the development dependencies I usually install on a new machine
 
 Package: jscoobyced-dep-ui
 Architecture: all
-Version: 1.0-9
+Version: 1.0-10
 Priority: optional
 Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, kazam (>= 1.4.5), vlc, ffmpeg, imagemagick, xclip
-Filename: amd64/jscoobyced-dep-ui_1.0-9.deb
-Size: 3036
-MD5sum: 51613df3b8048eb92e54155456267245
-SHA1: ef77ac50c6c737fb1d22fcc0d1a7d6a2bbbb6b50
-SHA256: 89271ab85511b48ef8a547af94d0f6362fc886b0f8e6c0ba9d72543bb17fabc2
-SHA512: ee6bd817a6f09cbb756d222064daad10b0f64d81dd4e05603bb6f4889dec3b15a63386296d9a0a51fff9cf10d2ea24d129638ce46a9e30a82c30f3894d403dbf
+Filename: amd64/jscoobyced-dep-ui_1.0-10.deb
+Size: 3040
+MD5sum: f5161e1df31e1a4f63e609f464f17699
+SHA1: 8e9cb86c4ef7ea112225db850d35748ffbefe220
+SHA256: f2625d9198f44a290b4ace0659082167cd16f1ddc36f4a0e3142537b908e200a
+SHA512: 2f890cc7cbe5a48e0c87555b3ea35178f52ecd8ab0aa1742a0bf1c2f40afa0fd59ff703ec1c9227154dc8bcb593136a787a2dfb5f48e355609ce79f85f79e5e6
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
 Architecture: all
-Version: 1.0-14
+Version: 1.0-15
 Priority: optional
 Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
+Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
-Filename: amd64/jscoobyced-dep_1.0-14.deb
-Size: 2888
-MD5sum: 9dc9ca662c1e95bea1f8f29b10443be2
-SHA1: 89c142150370c4eda78a9c8c3ad265deac23ec15
-SHA256: dece29a2d51c941bdebac47b599fe958d151547c3b811298b75e9fd83166fd37
-SHA512: 68d1dc7266174e2a48a207020bb6e4ca183ad78602bf52614fb43a0d5b7f543ab7f0acd4817db6629aa2892f68a4824a0ee94865734446f91c48de6148392d79
+Filename: amd64/jscoobyced-dep_1.0-15.deb
+Size: 2892
+MD5sum: 3039f837bd8b93b5f8c998ddccb321a1
+SHA1: 3564ca0c862d7694fb769e05a096cfd95cc8df39
+SHA256: 59ba313be000ec0b4792bfee0ccf05b4b647270b0862bd495e809e1b95b584e0
+SHA512: 3ec8158a75a5e0300bd176c8ddff3b76f868fd086381fa4d1e968c27418bafe0476270f84d4b78ea8b28e5947ab80a1c79962b0ea48101246ad69820d0f648b3
 Description: This is a meta-package with the dependencies I usually install on a new machine
-
-Package: libpango1.0-0
-Architecture: all
-Version: 1.36-5
-Priority: optional
-Section: base
-Maintainer: Cedric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: sh
-Filename: amd64/libpango1.0-0_1.36-5.deb
-Size: 2188
-MD5sum: e552114c08917b3ea4e0cf077f401294
-SHA1: a3d1e6294f857b1a3307d92ff2f84a598ec3e55a
-SHA256: c4dca08f3421740fb358daf99634b7b4d7488d856dd302b42596dc13ee03aca2
-SHA512: 6edd97165e67e5686262b13ef2dd5bdc071ac7427f6b64ce004f59351d41f5419f0ba4a73cb74b9dd21a603b49652867d7cc627910af978bb9caee5d6584619d
-Description: Fake package to install Dropbox
 

@@ -13,6 +13,8 @@ check_package() {
 }
 
 cd repo
+rm -Rf amd64 && mkdir -p amd64
+
 GPGKEYID=$(gpg --no-tty --list-secret-keys --with-colons 2>/dev/null | awk -F: '/^sec:/ { print $5 }')
 
 echo "Cleaning up meta-data."
@@ -31,7 +33,6 @@ if [ "" != "${HAVEPKG}" ]; then
   echo "Signing packages."
   dpkg-sig -k ${GPGKEYID} --sign builder ../base/*.deb
   mv ../base/*.deb ./amd64/
-
   echo "Creating new meta-data."
   apt-ftparchive packages amd64 > Packages
   gzip -k -f Packages
