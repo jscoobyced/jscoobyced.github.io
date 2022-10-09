@@ -1,16 +1,16 @@
 Package: jscoobyced-dep-dev
 Architecture: all
-Version: 1.0-22
+Version: 1.0-23
 Priority: optional
 Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
-Depends: jscoobyced-dep, openjdk-11-jdk (>= 11.0.0), git, gcc, make, build-essential, openssl
-Filename: amd64/jscoobyced-dep-dev_1.0-22.deb
-Size: 3886
-MD5sum: 54f3b8b3b46bcc1ff8804456b996deea
-SHA1: 8157af86b00c29f6fd83943b4a6650cbe9902c7f
-SHA256: 04a28dbc2062218ffe31d6e01bc5240f298d6d10ae2f8e310ce621af3a075cfd
-SHA512: 7122c396de24a150dd3e99921f48a1492184a2c8cf9eb9520c36ec8ac194493c798bf1e07efc4c6aec2121c97ccc2a96a592dff161200f6358fef5d523dcfabc
+Depends: jscoobyced-dep, openjdk-17-jdk (>= 17.0.0), git, gcc, make, build-essential, openssl
+Filename: amd64/jscoobyced-dep-dev_1.0-23.deb
+Size: 3904
+MD5sum: 17fb387938313ef9da0b201d8823bb56
+SHA1: 919487ba87ad458766369f140da6ea95f3df24b3
+SHA256: feb2bd217c36df539b04145375fd6cb5c18761e61322068884007dc4ff7f341c
+SHA512: fb1dd8f277f0aedc666d3f595c6aad254442ac2079637efef968afd50357e1d9463a55c3c57061e7237367b1e8d0293eb31726f59e54c83af56795b7549efa0a
 Description: This is a meta-package with the development dependencies I usually install on a new machine
 
 Package: jscoobyced-dep-media
@@ -21,11 +21,11 @@ Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: python3-pip, audacity, kazam (>= 1.4.5), vlc, ffmpeg, imagemagick, xclip
 Filename: amd64/jscoobyced-dep-media_1.0-7.deb
-Size: 2476
-MD5sum: d1409cc9c28056cfbf941a7e2dea269a
-SHA1: a850cc53ed87abadceeb18d49ad5e47a4cbbf9fe
-SHA256: 0e68d7fd5acae5c4a19324518ef68ab2063f0c98ede15a01a2cf89d5f3a12712
-SHA512: d10fb39d784923c3895183ce3e3abceb00a21a08df2b9aebe7c8f162da699821f43ab71ea8b1ca82a1e8cf7d1b9fb759400875d867da0a86561c82f12287c767
+Size: 2472
+MD5sum: b6e8120b387b93d4d29031c8d47bb843
+SHA1: a9c111eb9d98f03b84de0c6d339548f7859960df
+SHA256: c0e95a3a1828aa045bf471fae642ec49931e15f2eea2f55959bcc57b99bfd732
+SHA512: 35f2375dcc1aa889d294e68a9cb45ae8eb5de4b0cf52c51daa7851c8f1cf63f56c66f06184319652447e90b1c22536cd1878dc615cd4a666aed129baba8fce97
 Description: This is a meta-package with the dependencies I usually install on a new machine for audio or video editing
 
 Package: jscoobyced-dep-ui
@@ -36,11 +36,11 @@ Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep
 Filename: amd64/jscoobyced-dep-ui_1.0-19.deb
-Size: 2842
-MD5sum: 183d28dd219f75ca87c92d6e7574b40b
-SHA1: 54a7842ff09029c821feef20d20f3459181bd6b3
-SHA256: 37dcb6497fce77b0a627c2ce70078d40ad5ff79d5a3e20a5c37f8cbcba0c87c0
-SHA512: da3c376b4e7056544c6fa48216162564a45baa886c439d96f21ea8bb52e2b15f161f8e99f61df0a3cd21b73cd98ab6e575f6a77f6664c71f313aeb81171af9f6
+Size: 2838
+MD5sum: ee1412650620ad436bce4dc2d59deaa5
+SHA1: 5eaa7fc19380c2f3f71d8dc32c799961a518f77b
+SHA256: f182e8416b2619cc08cf0d82ea457694d5ef57f56832875063a828cf3eb291b6
+SHA512: 03789e1452a8da8f0dff406b8b52cb7af68a0b25b37fab1675ad06718e2c706a069d37acce84831b6355f56bc82a107dba01c6594888ad4b263574d62a6206c9
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
@@ -51,10 +51,10 @@ Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
 Filename: amd64/jscoobyced-dep_1.0-20.deb
-Size: 2478
-MD5sum: cb5927281f3c67822882b7251614a8b2
-SHA1: 3674a225b24f4c4d53629e574b4de26d47e6e158
-SHA256: 3286d077ac616209e12e4e2acdb31650bde9466c98efb90aa0f942603aaa5f71
-SHA512: 24b0b2a92a4bf0a73647d9a4efd3c63190e36bd2b482ee52a7b04cdb953be4e4e686f1675211d401531d08e4e08cf20788ef269e9dd660a8c6647a61c7ac8c59
+Size: 2476
+MD5sum: 60f30b1d58822dfdf9e51f959f6011b9
+SHA1: 1550c6789031d078115c2145dc01fa8eca681438
+SHA256: 158b6c76e7b20a05a7949d71d9605769a450b9d8318ccbbc41e30a3bfe69ab8a
+SHA512: 76b393d002c59c8a99f8ffa5ba062268d74d97da628342686259ffdc5f92d2801c542866528f7b1e3880db03773758854f84576f2907269a0769c142aa044184
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
