@@ -6,11 +6,11 @@ Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep, openjdk-17-jdk (>= 17.0.0), git, gcc, make, build-essential, openssl
 Filename: amd64/jscoobyced-dep-dev_1.0-26.deb
-Size: 4248
-MD5sum: 00937e4c289371d7f67297424474bbea
-SHA1: 31a11f53f5df3574d8d60cc15916047609295e95
-SHA256: 16ad6c61dcc1e92fb423dece231fa9f195dec141340504c640e4eb7579453533
-SHA512: ea27e6c53a9c9fbb5eb6fa0b44c38cd2ce9d5a05b1c0ef8515f5f3237cb9d16698a4da74c77afda3f8ebb9dc82f6593e5e9592ca56af2c7064763d9fbcb3cba1
+Size: 4264
+MD5sum: d83c00235ac0277f324c558046661e28
+SHA1: 10e9aa462ea76eab9bd63e3857308945cffa1801
+SHA256: 6ef3d2f6b4de3387b324f03745e2f082ac45f590da5d718b7eb6c31dcb27d06e
+SHA512: c1e7ca3a66ec36c21e88e7912bc5d96e0fa43ceaf09e70e303656a1faaa7259ed473651a19425bf987b4c89d8cbd6379718b4bf1a3a9c37834c72aa2fdd6a419
 Description: This is a meta-package with the development dependencies I usually install on a new machine
 
 Package: jscoobyced-dep-media
@@ -21,11 +21,11 @@ Section: base
 Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: python3-pip, audacity, kazam (>= 1.4.5), vlc, ffmpeg, imagemagick, xclip
 Filename: amd64/jscoobyced-dep-media_1.0-9.deb
-Size: 2182
-MD5sum: 1adfeec271dee62ccd771ccdc561c2b7
-SHA1: 2fb0366502e82560099680d8516b6fd1d2203a4d
-SHA256: 433e252597513705191c8214b2279738b23f3870d8265b22cfdaf8780db776cc
-SHA512: 3fced82486ca3d3640f29a6a4d0a3c6cda70ed572b9228f3bbf3cc573c3e6080dd1842909ab71b7dec90ad53d5722eb1ac6704f90aa5fb41b9985e1d5c7aff4b
+Size: 2180
+MD5sum: 9bbed4b98057e9c4c4af22205be260ed
+SHA1: dafeb11d98998c71a2d50ead4fc5a0fa09b58603
+SHA256: 1a398106c33dcc13d8e8099a02fd562b38e81ec3d382a67b6239f0dadcc81135
+SHA512: 2bbe1352ff0e539812ae696b4b15cf481e9e90fa68eac0ddaebbde66918419a6bbef56b1a3467cbe749566d96c33be22154b86a3991f98e1e155811a10904b76
 Description: This is a meta-package with the dependencies I usually install on a new machine for audio or video editing
 
 Package: jscoobyced-dep-ui
@@ -37,10 +37,10 @@ Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: jscoobyced-dep
 Filename: amd64/jscoobyced-dep-ui_1.0-21.deb
 Size: 2974
-MD5sum: 1b83db81d5cc6b5c14558fd1aea2b07d
-SHA1: 4817fe325ec2a8accbe98afce72694ba6da7efaf
-SHA256: 17413cdbc5e0f6ca6d2b4d666f2e8b93ed40b5f51ec9338b548344a9f3be52be
-SHA512: 4013eaef42381763f05b8b26e8c47f16b1229aa51bf5e2901dc40370803453a6f60a24706b536ac6e4a4364015fefbdab1ba4fb6df43ca8e4fd5dd33d8157240
+MD5sum: cb16ccb50a520cf1a83925579a8bb7c9
+SHA1: 07109601f3d859ee7206b855a64460418004c8fd
+SHA256: fdfd481ca12ae13485e4900c617d4877dea223d37e0a9eeaabbb457bfbb20dd5
+SHA512: 99f068dda6e25bdd479b71ca7ee31679c88fc6c0c465723b1bc3522db30a466a6c84d5caaea365499ccdd801ebfc2c3e33d02e0384158ccc9feb71cbb2481355
 Description: This is a meta-package with the UI dependencies I usually install on a new machine
 
 Package: jscoobyced-dep
@@ -52,9 +52,9 @@ Maintainer: Cédric Rochefolle <19742131+jscoobyced@users.noreply.github.com>
 Depends: openssh-server, vim, apt-transport-https, ca-certificates, curl, software-properties-common, locales, gpg
 Filename: amd64/jscoobyced-dep_1.0-21.deb
 Size: 2496
-MD5sum: 747b08f62b6acf1670eaaef3602c4067
-SHA1: 7d98f3e9a7997a1e0cefa6702e7a22d4a017b2d2
-SHA256: e78fa0202d602779b83f8afbdaaf1825eb8784f753ef6c22b276bc5f3b241ac9
-SHA512: b8638711b0f7404f24ca68ee320003f2383e82884a14e24d728f8f174de0c53d1e43a50828e9039c60562c08faa897cc03eb0fb94d87a6fd24f4a998665b6c53
+MD5sum: fc56f29cf8f3e63196db8e6baddb6503
+SHA1: d4276c6b1d8073f84483ff836ecf1443df004574
+SHA256: 5fdd6dd89cdeb7a3f7cd5c0c2038cc88d18d9b3ef091a481cafffe23ee3751ab
+SHA512: 544f4de24d5201c8b2f4997fa2b235f75a1986c4b7536067737fe21aa2eb2cdda12d7c8ab8ed6492b42db67f852fac0f3511b20ac42e4ceeeae990674e7879b6
 Description: This is a meta-package with the dependencies I usually install on a new machine
 
